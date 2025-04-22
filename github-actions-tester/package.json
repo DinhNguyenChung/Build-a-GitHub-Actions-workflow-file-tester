@@ -1,0 +1,21 @@
+{
+  "name": "github-actions-tester",
+  "version": "1.0.0",
+  "description": "A tool to test GitHub Actions workflow files locally before pushing to GitHub.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.5.1",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "author": "Nguyen Chung",
+  "license": "MIT"
+}
