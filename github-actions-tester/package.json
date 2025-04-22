@@ -5,7 +5,9 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "build": "echo 'Build complete'",
+    "deploy": "echo 'Deploy complete'"
   },
   "dependencies": {
     "chalk": "^4.1.2",
@@ -14,7 +16,8 @@
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "supertest": "^7.1.0"
   },
   "author": "Nguyen Chung",
   "license": "MIT"
